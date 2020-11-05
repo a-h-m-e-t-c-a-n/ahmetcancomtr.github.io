@@ -1,0 +1,129 @@
+<script>
+    /*function UpdateEntryComment(url) {
+        var url = "https://api.github.com/user";
+        var request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        request.onload = function () {
+            console.log(this.response);
+            if (this.status >= 200 && this.status < 400) {
+                var response = JSON.parse(this.response);
+                document.getElementById('github-comments').appendChild(createCommentEntryEl(response[0]));
+            } else {
+                console.error(this);
+            }
+            UpdateComments();
+        };
+        request.send();
+    };*/
+
+    function UpdateComments(url) {
+        var url = "https://api.github.com/repos/ahmetcancomtr/ahmetcancomtr.github.io/issues/1/comments";
+
+
+        var request = new XMLHttpRequest();
+        request.open('GET', url, true);
+        request.onload = function () {
+
+            if (this.status >= 200 && this.status < 400) {
+                let response = JSON.parse(this.response);
+
+                if (response.length > 0) {
+                    for (var i = 0; i < response.length; i++) {
+                        document.getElementById('gh-comments-list').appendChild(createCommentEl(response[i]));
+                    }
+                }
+                else {
+                    alert("add first comment");
+                }
+
+
+                if (0 === response.length) {
+                    document.getElementById('no-comments-found').style.display = 'block';
+                }
+            } else {
+                console.error(this);
+            }
+        };
+        request.send();
+    };
+
+
+
+    function createCommentEl(response) {
+        var user = document.createElement('a');
+        user.setAttribute('href', response.user.url.replace('api.github.com/users', 'github.com'));
+        user.classList.add('user');
+
+        var userAvatar = document.createElement('img');
+        userAvatar.classList.add('avatar');
+        userAvatar.setAttribute('src', response.user.avatar_url);
+        
+
+        user.appendChild(userAvatar);
+
+        var commentLink = document.createElement('a');
+        commentLink.setAttribute('href', response.html_url);
+        commentLink.classList.add('comment-url');
+        commentLink.innerHTML = '#' + response.id + ' - ' + response.created_at;
+
+        var commentContents = document.createElement('div');
+        commentContents.classList.add('comment-content');
+        commentContents.innerHTML = response.body;
+
+        var comment = document.createElement('li');
+        comment.setAttribute('data-created', response.created_at);
+        comment.setAttribute('data-author-avatar', response.user.avatar_url);
+        comment.setAttribute('data-user-url', response.user.url);
+
+        comment.appendChild(user);
+        comment.appendChild(commentContents);
+        comment.appendChild(commentLink);
+
+        return comment;
+    };
+
+   /* function createCommentEntryEl(user) {
+        console.log(user);
+        var userEl = document.createElement('a');
+        userEl.setAttribute('href', user.url.replace('api.github.com/user', 'github.com'));
+        userEl.classList.add('user');
+
+        var userAvatar = document.createElement('img');
+        userAvatar.classList.add('avatar');
+        userAvatar.setAttribute('src', user.avatar_url);
+
+        userEl.appendChild(userAvatar);
+
+
+        var inputEl = document.createElement('input');
+        inputEl.setAttribute("type", "text");
+        inputEl.setAttribute("placeholder", "write a comment");
+
+        var buttonEl = document.createElement('a');
+        buttonEl.classList.add("CommentButton");
+
+
+        var box = document.createElement('li');
+        box.setAttribute('data-author-avatar', response.user.avatar_url);
+        box.setAttribute('data-user-url', response.user.url);
+
+        box.appendChild(userEl);
+        box.appendChild(inputEl);
+        box.appendChild(buttonEl);
+
+        return box;
+    };*/
+    UpdateComments();
+</script>
+
+<hr>
+
+<div id="github-comments">
+    <h2>Comments</h2>
+    <p id="leave-a-comment">Join the discussion for this article on <a
+        href="https://github.com/ahmetcancomtr/ahmetcancomtr.github.io/issues/1/">this ticket</a> and write your comment.</p>
+    <ul id="gh-comments-list"></ul>
+    <p id="no-comments-found">No comments found for this article. Comments posted before 2019-09-15 are no longer
+        available due to a system migration since I no longer use Disqus for comments.</p>
+    
+</div>
