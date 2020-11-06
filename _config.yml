@@ -33,17 +33,17 @@ typewrite-text: work smarter !not harder
 
 # Experiences
 author_work_experiences:
-            - company_name: Turkish Insurance Company Heardquarter IT
+            - company_name: Turkish Insurance Company Heardquarter IT(25000+ employees)
               company_logo: company.png
               company_url: ... #https://google.com
               designation: Senior Software Developer
               description: Istanbul/Turkey 
               visibility: true
-            - company_name: Turkish Bank(investment) IT
+            - company_name: Turkish Bank(investment) IT(9000+ employees)
               company_logo: company.png
               company_url: ... 
               designation: Senior Software Developer
-              description: Istanbul/Turkey Feb 2018 – Sep 2018
+              description: Istanbul/Turkey
               visibility: true
             - company_name: Software Company(1000+ employees)
               company_logo: company.png
