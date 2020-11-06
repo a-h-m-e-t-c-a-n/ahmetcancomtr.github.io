@@ -1,17 +1,13 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "ahmetcan",
+  "homepage": "https://github.com/ahmetcancomtr",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "ahmetcan <mail@ahmetcan.com.tr>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "work smarter !not harder",
   "main": "",
-  "keywords": [
-    "jekyll-theme",
-    "jekyll",
-    "gallery"
-  ],
-  "license": "MIT",
+  "keywords": ["developer", "software","python","c#","android","keras","tensorflow",".net","core","dotnet","engineer","linux","docker","blog"],
+  "license": "",
   "ignore": [
     "**/.*",
     "node_modules",

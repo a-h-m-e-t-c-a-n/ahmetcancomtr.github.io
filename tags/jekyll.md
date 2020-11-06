@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Jekyll
+title: ahmetcan
 permalink: /blog/tags/jekyll
 ---
  
