@@ -21,19 +21,5 @@ layout: null
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
       </item>
     {% endfor %}
-
-
-    {% for page in site.pages %}
-      {% if page.layout == 'page' %}
-        {% if page.name != '404.md' %}
-          <item>
-            <title>{{ page.title | xml_escape }}</title>
-            <description>{{ page.content | xml_escape }}</description>
-            <link>{{ page.url | prepend: site.baseurl | prepend: site.url }}</link>
-          </item>
-        {% endif %}
-      {% endif %}
-    {% endfor %}
-
   </channel>
 </rss>
