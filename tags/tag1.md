@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Guides
-permalink: /blog/categories/guides/
+title: tag1
+permalink: /blog/tags/search
 ---
-
-<h5> Posts by Category : {{ page.title }} </h5>
+<h5> Posts by Tag : {{ page.title }} </h5>
 
 <div class="card">
-{% for post in site.categories.guides %}
+{% for post in site.tags.tag1 %}
  <li class="category-posts"><span>{{ post.date | date_to_string }}</span> &nbsp; <a href="{{ post.url }}">{{ post.title }}</a></li>
 {% endfor %}
 </div>
