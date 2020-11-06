@@ -3,6 +3,16 @@ subtitle: Software Developer / Machine Learning . Mobile Application . Web Appli
 description: Software Developer / Machine Learning . Mobile Application . Web Application
 url: "http://ahmetcan.com.tr" 
 baseurl: "" # the subpath of your site, e.g. /blog
+keywords: "c#,.net,dotnetcore,dotnet,core,android,kotlin,python,nodejs,keras,tensorflow,machine learning,neural networks,
+,vuejs,vue,vue.js,vuetify,javascript,es5,es6,typescript,asp.net,asp,net,webform,mvc,webapi,rest,firebase,firestore,cloud functions,
+analytics,big data,google,amazon,aws,azure,s3,sqs,sql,linux,environment,ubuntu,debian,arch,fedora,nodejs,expressjs,sdk,c++,
+wpf,wcf,soap,html,css3,css,jquery,linq,entity framework,code-first,database-first,
+mysql,mssql,server,client,tsql,postgresql,nosql,mongodb,cochbase,back-end,backend,rabitmq,msmq,rdis,memcache,haproxy,
+,oracle,plsql,stored procedure,websocket,socketio,socket-io,signalr,
+docker,kubernate,elb,web,pip,pip3,npm,yarn,
+gan,segmentation,face recognation,body part segmentation,panoptic,dense,densepose,openpose,opencv,image,pillow,generative,neural networks,
+encoder,decoder,convolution,network,tensorflow light,torch,dataset,validation,test
+"
 
 urls:
     - text: Home
