@@ -1,31 +1,23 @@
 ---
-name: John Doe
-username: johndoe
-bio: "Hi I a John, a Web Developer and Designer."
-site: http://johndoe.com
-avatar: johndoe.png
-email: mail@johndoe.com
+name: Ahmet CAN
+username: ahmetcan
+bio: "Senior Software Developer"
+site: http://ahmetcan.com.tr
+avatar: profile.png
+email: mail@ahmetcan.com.tr
 social:
     - title: "github"
-      url: "https://github.com/johndoe"
+      url: "https://github.com/ahmetcancomtr"
     - title: "linkedin"
-      url: "https://www.linkedin.com/in/johndoe"
+      url: "https://www.linkedin.com/in/ahmetcancomtr"
     - title: "youtube"
-      url: "https://www.youtube.com/channel/UCSfLBFFfNU9r6ihfei6VeJw"
+      url: "https://www.youtube.com/channel/UCnbQGwnI179nM9WhuIFP9zQ"
     - title: "facebook"
-      url: "https://www.facebook.com/johndoe"
+      url: "https://www.facebook.com/ahmetcancomtrfb"
     - title: "twitter"
-      url: "https://www.twitter.com/johndoe"
-    - title: "behance"
-      url: "https://behance.com/johndoe"
+      url: "https://www.twitter.com/ahmetcancomtr"
     - title: "instagram"
-      url: "https://instagram.com/johndoe"
+      url: "https://instagram.com/ahmetcancomtr"
     - title: "medium"
-      url: "https://medium.com/johndoe"
-    - title: "telegram"
-      url: "https://telegram.com/johndoe"
-    - title: "dribbble"
-      url: "https://dribbble.com/johndoe"
-    - title: "flickr"
-      url: "https://flickr.com/johndoe"
+      url: "https://medium.com/ahmetcancomtr"
 ---

@@ -13,40 +13,67 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
-    - text: Shop
-      url : /shop
-    - text: Contact
-      url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+#    - text: Gallery
+#      url: /gallery
+#    - text: Styleguide
+#      url: /styleguide
+#    - text: Get Started
+#      url: /get-started
 
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
 author: Ahmet CAN
-author_bio: Ahmet CAN BIO :D
+#author_bio: Ahmet CAN BIO :D
 author_email: "mail@ahmetcan.com.tr"
 author_location: Turkey
 author_website_url: "https://ahmetcan.com.tr"
 typewrite-text: work smarter !not harder
 
+
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Turkish Insurance Company Heardquarter IT
+              company_logo: company.png
+              company_url: ... #https://google.com
+              designation: Senior Software Developer
+              description: Istanbul/Turkey 
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Turkish Bank(investment) IT
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Software Developer
+              description: Istanbul/Turkey Feb 2018 – Sep 2018
+              visibility: true
+            - company_name: Software Company(1000+ employees)
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Mobile App Developer
+              description: Istanbul/Turkey 
+              visibility: true
+            - company_name: Software Company in Telecommunication(1000+ employees)
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Software Developer
+              description: Istanbul/Turkey 
+              visibility: true
+            - company_name: Software Company in Communication(15000+ employees)
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Software Developer
+              description: Istanbul/Turkey 
+              visibility: true
+            - company_name: Software Company in Banking (500+ employees)
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Software Developer 
+              description: Ankara/Turkey 
+              visibility: true
+            - company_name: Defence Technology Company (1200+ employees)
+              company_logo: company.png
+              company_url: ... 
+              designation: Senior Software Developer
+              description: Ankara/Turkey 
               visibility: true
 
 # Education
@@ -56,46 +83,30 @@ author_education_details:
                 college_url: https://mit.org
                 college_degree: CS Engineer
                 description: Bachelor of Technology
-                visibility: true
+                visibility: false
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: dragoman.png
+                project_title: Dragoman Chat Translator
+                project_description: Android App on PlayStore
+                project_url: https://play.google.com/store/apps/details?id=ahmetcan.dragoman.whatsapp
                 visibility: true
               - project_thumbnail: hack4r.PNG
                 project_title: Hack4r
                 project_description: A Platform built for Hackers and Penetration Testers
                 project_url: https://hack4r.com
-                visibility: true
+                visibility: false
 
 # social links
 twitter_username: ahmetcancomtr
 github_username:  ahmetcancomtr
 facebook_username: ahmetcancomtrfb
 linkedin_username: ahmetcancomtr
-behance_username: johndoe
 instagram_username: ahmetcancomtr
 medium_username: ahmetcancomtr
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
-
-# wakatime username (coding activity)
-wakatime_username: sujaykundu777
-
-# mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
-
-# formspree (contact form)
-formspree_email: johndoe@gmail.com
 
 # syntax highlighter
 markdown: kramdown
@@ -104,7 +115,7 @@ permalink: pretty
 
 # Choose what to show ( can be true or false)
 show_author_work_experiences: true
-show_author_education_details: true
+show_author_education_details: false
 show_author_project_details: true
 
 # pagination of posts
@@ -121,12 +132,12 @@ paginate_path: "/blog/page/:num/"
 #     envs: ['development']
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+jekyll-archives:
+   enabled:
+     - categories
+   layout: archive
+   permalinks:
+     category: '/category/:name/'
 
 collections:
   products:
