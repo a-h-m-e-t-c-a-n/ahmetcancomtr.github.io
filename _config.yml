@@ -1,6 +1,6 @@
-title: ahmetcan
+title: Ahmet CAN
 subtitle: Software Developer / Machine Learning . Mobile . Web 
-description: Software Developer / Machine Learning . Mobile . Web
+description: Freelance Software Development Consultant, Over twenty years of experience, Speaks English and Turkish
 url: "http://ahmetcan.com.tr" 
 baseurl: "" # the subpath of your site, e.g. /blog
 keywords: "c#,.net,dotnetcore,dotnet,core,android,kotlin,python,nodejs,keras,tensorflow,machine learning,neural networks,
@@ -32,7 +32,7 @@ urls:
 
 author_logo: profile.png
 author: Ahmet CAN
-#author_bio: Ahmet CAN BIO :D
+author_bio: Freelance Software Development Consultant, Over twenty years of experience, Speaks English and Turkish
 author_email: "mail@ahmetcan.com.tr"
 author_location: Istanbul
 author_website_url: "https://ahmetcan.com.tr"
