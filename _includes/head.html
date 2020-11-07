@@ -1,13 +1,18 @@
 <head>
   <meta charset="utf-8" />
   <title>
-    {% if {page.title %}{{ page.title }} -{{site.title}}{% else %}{{ site.title }} - {{
-    site.subtitle }}{% endif %}
+    {% if {page.title %}
+      {{ page.title }} -{{site.title}}
+    {% else %}
+      {{ site.title }} - {{site.subtitle }}
+    {% endif %}
   </title>
   <meta http-equip="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.summary %}
     <meta name="description" content="{{ site.description }} - {{ page.summary | escape }} - {% if {page.title %}{{ page.title }}{% endif %}">
+  {% else %}
+    <meta name="description" content="{{ site.description }}">
   {% endif %}
    <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %},{{ page.keywords | escape }},{{ site.keywords }}"/>
 
