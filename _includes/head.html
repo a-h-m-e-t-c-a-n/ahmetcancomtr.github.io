@@ -10,7 +10,7 @@
   <meta http-equip="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   {% if page.summary %}
-    <meta name="description" content="{{ site.description }} - {{ page.summary | escape }} - {% if {page.title %}{{ page.title }}{% endif %}">
+    <meta name="description" content="{{ page.summary | escape }} - {% if {page.title %}{{ page.title }}{% endif %} - {{ site.description }}">
   {% else %}
     <meta name="description" content="{{ site.description }}">
   {% endif %}
