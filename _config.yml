@@ -1,7 +1,7 @@
 title: Ahmet CAN
 subtitle: Software Developer / Machine Learning . Mobile . Web 
 description: Freelance Software Development Consultant, Over twenty years of experience, Speaks English and Turkish
-url: "http://ahmetcan.com.tr" 
+url: "https://ahmetcan.com.tr" 
 baseurl: "" # the subpath of your site, e.g. /blog
 keywords: "c#,.net,dotnetcore,dotnet,core,android,kotlin,python,nodejs,keras,tensorflow,machine learning,neural networks,
 ,vuejs,vue,vue.js,vuetify,javascript,es5,es6,typescript,asp.net,asp,net,webform,mvc,webapi,rest,firebase,firestore,cloud functions,
@@ -169,6 +169,9 @@ defaults:
       layout: author
       permalink: /blog/authors/:slug
 
+google:
+  tag_manager:
+    container_id: GTM-W9F6QGH
 # Build settings
 plugins:
   - jekyll-paginate
@@ -176,7 +179,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-menus
-
 
 # Exclude from processing.
 # The following items will not be processed, by default.

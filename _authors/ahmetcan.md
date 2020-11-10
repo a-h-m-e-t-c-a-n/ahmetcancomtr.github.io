@@ -2,7 +2,7 @@
 name: Ahmet CAN
 username: ahmetcan
 bio: "Senior Software Developer"
-site: http://ahmetcan.com.tr
+site: https://ahmetcan.com.tr
 avatar: ahmetcan.png
 email: mail@ahmetcan.com.tr
 social:

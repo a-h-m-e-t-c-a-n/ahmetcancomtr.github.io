@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mail@ahmetcan.com.tr"]
 
   spec.summary       = %q{ © all rights reserved / Ahmet CAN Personal Blog  }
-  spec.homepage      = "http://ahmetcan.com.tr"
+  spec.homepage      = "https://ahmetcan.com.tr"
   spec.license       = ""
 
   spec.metadata["plugin_type"] = "theme"
