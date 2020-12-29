@@ -55,7 +55,7 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
     Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
     Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
 
-gRPC için rust dilini kullanarak geliştirme yapabileceğini tonic isminde bir framework mevcut.
+gRPC için rust dilini kullanarak geliştirme yapabileceğiniz tonic isminde bir framework mevcut.
 
     
     Bu aşamada,RUST geliştirme ortamının kurulmuş olduğunu varsayıyorum.
