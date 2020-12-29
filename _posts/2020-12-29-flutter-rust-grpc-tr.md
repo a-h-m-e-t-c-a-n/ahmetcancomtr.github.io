@@ -1,3 +1,17 @@
+---
+layout: post
+title:  "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
+summary: "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
+author: ahmetcan
+date: '2020-12-29 04:52:00 +2'
+category: [flutter]
+thumbnail: /assets/img/datascience.jpg
+keywords: flutter, rust, grpc ,android,ios,development, dart, macos, linux, protobuf
+permalink: /blog/flutter-rust-grpc/
+usemathjax: true
+---
+
+
 ## Flutter, Rust ve gRPC ile Işık Hızına Çıkın
 
     Bu yazı için özet Temel düzeyde FlutterSDK/Dart ,Rust programlama dilleri/framework'leri  hakkında bilginiz olması gerekiyor.
