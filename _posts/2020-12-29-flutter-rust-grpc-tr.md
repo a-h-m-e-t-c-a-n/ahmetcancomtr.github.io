@@ -26,7 +26,7 @@ usemathjax: true
 
 Yazıya başlamadan önce Günümüzde popularitesini arttıran Rust ve gRPC gibi teknolojileri neden kullanmalıyız değinmek istiyorum. 
 
-Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil olarak seçilmiştir. Peki bu hızlı yükselişin ardında ne var. Performans olarak en hızlı programlama dili dediğimizde aklımıza  C dili geliyor.C dilide yazılan kodlar derlendiği zaman öz ve doğrudan araya bir katman girmeden çok hızlı çalışabilecek makine kodlarına dönüştürülüyor.C dili bu yüzden sistem programlamada ağırlıklı olarak kullanıyor. Günümüzde uygulama programlama alanında c ve c++ gibi diller pek pratik tercih edilmiyor. C#,java JavaScript gibi üst seviye diller, yazım kolaylığı açışından uygulama programcıları tarafından daha çok tercih ediliyor.CLR,JVM,JIT gibi runtime katmanları üzerine kurgulanmış bu diller cross platform ve moduler geliştirme konusunda yüksek uyumluluk sağlıyor. Peki neler kaybettiriyor ? Tabi ki performanstan ödün vermek zorunda kalıyoruz. Günümüzde Net framework 5 çıkmasıyla optimizasyonu çok iyi duruma gelen .Net Framework en hızlı haliyle bile C programlama dilinin oluşturduğu kodlardan çok daha yavaş çalışıyor ve donanım kaynaklarını daha fazla tüketiyor. Bunun nedeni CLR runtime tarafından yorumlanan ara kodların makine kodlarına dönüştürülme safhası.Ayrıca programcıların kolay memory management yapabilmesi açısından Garbage Collection bir mekanizmanın olması çok büyük bir etken.
+Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil olarak seçilmiştir. Peki bu hızlı yükselişin ardında ne var. Performans olarak en hızlı programlama dili dediğimizde aklımıza  C dili geliyor.C dilide yazılan kodlar derlendiği zaman öz ve doğrudan araya bir katman girmeden çok hızlı çalışabilecek makine kodlarına dönüştürülüyor.C dili bu yüzden sistem programlamada ağırlıklı olarak kullanıyor. Günümüzde uygulama programlama alanında c ve c++ gibi diller pek tercih edilmiyor. C#,java JavaScript gibi üst seviye diller, öğrenme eğrisinin yüksek olması,nispeten daha kolay anlalışabilir  olduğu için uygulama programcıları tarafından daha çok tercih ediliyor.CLR,JVM,JIT gibi runtime katmanları üzerine kurgulanmış bu diller cross platform ve moduler geliştirme konusunda yüksek uyumluluk sağlıyor. Peki neler kaybettiriyor ? Tabi ki performanstan ödün vermek zorunda kalıyoruz. Günümüzde Net framework 5 çıkmasıyla optimizasyonu çok iyi duruma gelen .Net Framework en hızlı haliyle bile C programlama dilinin oluşturduğu kodlardan çok daha yavaş çalışıyor ve donanım kaynaklarını daha fazla tüketiyor. Bunun nedeni CLR runtime tarafından yorumlanan ara kodların makine kodlarına dönüştürülme safhası.Ayrıca programcıların kolay memory management yapabilmesi açısından Garbage Collection bir mekanizmanın olması çok büyük bir etken.
 
   **O zaman ihtiyacımız olan şey C kadar hızlı aynı zamanda C#,jAVA vs.. gibi üst seviye diller kadar kolay 
     yazım  ve effektif memory management sunabilecek bir programalma dili.**
@@ -34,18 +34,18 @@ Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil
 
 RUST performansını C dili karşılaştırabilriz,Özellikle C++ demiyorum kendi denemelerimde C++ dan daha hızlı çalıştığını gördüm. Şöyle ki yazılmış bir benchmark kodunda oluşturulan algoritma 
  
-|   |                |          |
-|---|:---------------|:--------:|
-| 1 |C(clang)        | 0.7 sn   |
-| 2 |**Rust(1.48.0)**|**0.8 sn**|
-| 3 |C++(g++)        | 1.5 sn   |
-| 4 |Go(1.14.7)      | 3.9 sn   |
-| 5 |C#(Net5)        | 5.1 sn   |
-|   |                |          |
+|       |                      |          |
+|:------|:---------------------|:--------:|
+| 1.    |C(clang)              | 0.7 sn   |
+| 2.    |**Rust(1.48.0)**      |**0.8 sn**|
+| 3.    |C++(g++)              | 1.5 sn   |
+| 4.    |Go(1.14.7)            | 3.9 sn   |
+| 5.    |C#(Net5)              | 5.1 sn   |
+|       |                      |          |
     
 
 gibi bir sürede tamamlandı
-Peki bu kadar hızlı olmasının nedeni nedir ?... Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli **RUST** hakkında daha detaylı bilgilere [referans dökümanlardan](https://doc.rust-lang.org/book/) ulaşabilirsiniz.
+Peki bu kadar hızlı olmasının nedeni nedir ?!.. Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli **RUST** hakkında daha detaylı bilgilere [referans dökümanlardan](https://doc.rust-lang.org/book/) ulaşabilirsiniz.
 
 
 Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tarafında tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız çok büyük sorun yaratmayacaktır.
