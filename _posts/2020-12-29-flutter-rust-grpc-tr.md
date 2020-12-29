@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
-summary: "Rust gRPC ve Flutter kullanarak donanımın en yüksek verimlilikte kullanabileceğiniz http/2 temelli mobil-fullstack uygulama geliştirme"
+summary: "Rust gRPC ve Flutter kullanarak donanımı en yüksek verimlilikte kullanabileceğiniz http/2 temelli mobil-fullstack uygulama geliştirme"
 author: ahmetcan
 date: '2020-12-29 04:52:00 +2'
 category: [rust,flutter,gRPC]
@@ -22,7 +22,7 @@ usemathjax: true
     Rust SDK
 
 
-**Kodların tamamını github repositorim üzerinden indirebilirsiniz!**
+**Kodların tamamını github üzerinden indirebilirsiniz!**
 **[https://github.com/ahmetcancomtr/flutter_rust_grpc](https://github.com/ahmetcancomtr/flutter_rust_grpc)**
 
 
