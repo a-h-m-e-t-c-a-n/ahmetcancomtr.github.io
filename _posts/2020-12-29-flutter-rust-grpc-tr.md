@@ -72,18 +72,18 @@ proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir do
 
 ```protobuf
 syntax = "proto3";
-package echoservice;
+package echopackage;
 
-service EchoService {
-    rpc Do (EchoRequest) returns (EchoReply);
+service Echo {
+    rpc do_echo (EchoRequest) returns (EchoReply);
 }
 
 message EchoRequest {
-   string content = 1;
+   string  source_content = 1;
 }
 
 message EchoReply {
-    string  content= 1;
+    string reply_content= 1;
 }
 ```
 
