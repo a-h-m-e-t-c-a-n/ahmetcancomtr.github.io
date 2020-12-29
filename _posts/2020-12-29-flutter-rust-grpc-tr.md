@@ -5,7 +5,7 @@ summary: "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
 author: ahmetcan
 date: '2020-12-29 04:52:00 +2'
 category: [flutter]
-thumbnail: /assets/img/datascience.jpg
+thumbnail: /assets/img/rust.png
 keywords: flutter, rust, grpc ,android,ios,development, dart, macos, linux, protobuf
 permalink: /blog/flutter-rust-grpc/
 usemathjax: true
@@ -22,12 +22,19 @@ usemathjax: true
     Flutter SDK
     Rust SDK
 
+
+**Kodların tamamını github repositorim üzerinden indirebilirsini!**
+**[https://github.com/ahmetcancomtr/flutter_rust_grpc](https://github.com/ahmetcancomtr/flutter_rust_grpc)**
+
+
 Yazıya başlamadan önce Günümüzde popularitesini arttıran Rust ve gRPC gibi teknolojileri neden kullanmalıyız değinmek istiyorum.FlutterSDK zaten artık çok populer olduğu için ondan çok bahsetmeye gerek yok. FlutterSDK hakkında eksiklikleriniz varsa bunun hakkında yazılmış bir çok makale bulabilirsiniz.
 
 Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil olarak seçilmiştir. Peki bu hızlı yükselişin ardında ne var. Performans olarak en hızlı programlama dili dediğimizde aklımıza  C dili geliyor.C dilide yazılan kodlar derlendiği zaman öz ve doğrudan araya bir katman girmeden çok hızlı çalışabilecek makine kodlarına dönüştürülüyor.C dili bu yüzden sistem programlamada ağırlıklı olarak kullanıyor. Günümüzde uygulama programlama alanında c ve c++ gibi diller pek pratik tercih edilmiyor. C#,java JavaScript gibi üst seviye diller, yazım kolaylığı açışından uygulama programcıları tarafından daha çok tercih ediliyor.CLR,JVM,JIT gibi runtime katmanları üzerine kurgulanmış bu diller cross platform ve moduler geliştirme konusunda yüksek uyumluluk sağlıyor. Peki neler kaybettiriyor ? Tabi ki performanstan ödün vermek zorunda kalıyoruz. Günümüzde Net framework 5 çıkmasıyla optimizasyonu çok iyi duruma gelen .Net Framework en hızlı haliyle bile C programlama dilinin oluşturduğu kodlardan çok daha yavaş çalışıyor ve donanım kaynaklarını daha fazla tüketiyor. Bunun nedeni CLR runtime tarafından yorumlanan ara kodların makine kodlarına dönüştürülme safhası.Ayrıca programcıların kolay memory management yapabilmesi açısından Garbage Collection bir mekanizmanın olması çok büyük bir etken.
 
-    O zaman ihtiyacımız olan şey C kadar hızlı aynı zamanda C#,jAVA vs.. gibi üst seviye diller kadar kolay yazım ve ve effektif memory management sunabilecek bir programalma dili.
-    RUST
+    O zaman ihtiyacımız olan şey C kadar hızlı aynı zamanda C#,jAVA vs.. gibi üst seviye diller kadar kolay 
+    yazım ve ve effektif memory management sunabilecek bir programalma dili.
+    
+
 RUST performansını C dili karşılaştırabilriz,Özellikle C++ demiyorum kendi denemelerimde C++ dan daha hızlı çalıştığını gördüm. Şöyle ki yazılmış bir benchmark kodunda oluşturulan algoritma 
 
 1. C.........0.7 sn
@@ -177,7 +184,8 @@ $ flutter create echoclient
 öncelikle dart için gRPC ortamını hazırlamamız lazım
 ben linux için anlatıyorum
 
-https://github.com/protocolbuffers/protobuf/releases
+[https://github.com/protocolbuffers/protobuf/releases](https://github.com/protocolbuffers/protobuf/releases)
+
 
 bu adresten ilgili toolu indirip **path** listesine ekleyin
 
@@ -263,5 +271,3 @@ main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string
 ve butona bastığımız zaman
 ![alt text](/assets/img/posts/sonuc.png "Sonuç")
 
-örnek kodları github repository den indirebilirsiniz
-https://github.com/ahmetcancomtr/flutter_rust_grpc
