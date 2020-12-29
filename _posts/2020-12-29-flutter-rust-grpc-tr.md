@@ -78,7 +78,7 @@ message EchoReply {
 ```
 
 aşağıdaki gibi görünecek
-![alt text](echo_proto.png "echo.proto")
+![alt text](/assets/img/posts/echo_proto.png "echo.proto")
 
 Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Aklınızda hala eksik birşeyler varsa protobuf formatında bakabilirsiniz.***(JSON yerine kullanılan binary format)***
 
@@ -261,7 +261,7 @@ main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string
 ```
 
 ve butona bastığımız zaman
-![alt text](sonuc.png "Sonuç")
+![alt text](/assets/img/posts/sonuc.png "Sonuç")
 
 örnek kodları github repository den indirebilirsiniz
 https://github.com/ahmetcancomtr/flutter_rust_grpc
