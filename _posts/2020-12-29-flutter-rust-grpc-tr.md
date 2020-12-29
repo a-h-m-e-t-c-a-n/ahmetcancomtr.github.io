@@ -90,7 +90,7 @@ message EchoReply {
 ve aşağıdaki gibi görünecek
 ![alt text](/assets/img/posts/echo_proto.png "echo.proto")
 
-Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, protobuf formatına detaylı bakabilirsiniz.***(JSON yerine kullanılan binary format)***
+Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, [protobuf](https://developers.google.com/protocol-buffers) formatına detaylı bakabilirsiniz.***(JSON yerine kullanılan binary format)***
 
 
 Şimdi rust ın kullanacağı bağımlılıkları ekleyelim
