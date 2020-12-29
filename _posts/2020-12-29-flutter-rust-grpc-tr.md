@@ -61,7 +61,7 @@ Rust dilinde gRPC kullanabilmemizi sağlayacak framework'ün ismi **tonic**
     
     Bu aşamada,RUST geliştirme ortamının kurulmuş olduğunu varsayıyorum.
 
-Terminali açıp aşağıdaki shell komutlarını yazıyoruz
+Aşağıdaki shell komutlarını çalıştırıyoruz
 
 ```console
 $ cargo new echo-server
@@ -69,7 +69,7 @@ $ cargo new echo-server
 Şimdi mevcut dizini visual studio code ile açalım
 ("code  . ")
 
-proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir dosya oluşturuyoruz. içeriği şu şekilde olacak.
+arından proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir dosya oluşturuyoruz. içeriği şu şekilde olacak.
 
 ```protobuf
 syntax = "proto3";
@@ -88,7 +88,7 @@ message EchoReply {
 }
 ```
 
-aşağıdaki gibi görünecek
+ve aşağıdaki gibi görünecek
 ![alt text](/assets/img/posts/echo_proto.png "echo.proto")
 
 Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, protobuf formatına detaylı bakabilirsiniz.***(JSON yerine kullanılan binary format)***
@@ -114,7 +114,7 @@ tokio = { version = "0.2", features = ["macros"] }
 tonic-build = "0.3"
 ```
 
-root dizine build.rs isminde bir dosya oluşturun ve aşağıda verilmiş olan kodları ekleyin
+projenin root dizine build.rs isminde bir dosya oluşturun ve aşağıda verilmiş olan kodları ekleyin
 bu **tonic** tarafından çalıştılacak ve derleme aşamasında gRPC proxy kodların üretilmesini sağlayacak.
 
 
@@ -170,27 +170,27 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 }
 ```
 
-terminale 
+aşağıdaki shell komutunu çalıştırın
+
 ```console
 $ cargo run 
 ```
-komutunu yazıp çalıştırıyoruz ve artık gRPC sunucumuz hazır
+**artık gRPC sunucumuz hizmet vermeye başladı**
 
 
 ## FlutterSDK ile gRPC client kodlamak
-Şimdi gRPC client için Flutter Uygulamasını  hazırlayalım
+Şimdi gRPC istemcisi için Flutter Uygulamasını  hazırlayalım
     
     Bu aşamada Flutter geliştirme ortamının kurulduğunu varsayıyorum
 
 
-Aşağıdaki komutu terminale yazıp flutter uygulaması oluşturuyoruz ve visual studio code ile açıyoruz
+Aşağıdaki komutu shell komutunu çalıştırıp flutter uygulaması oluşturuyoruz ve projeyi visual studio code ile açıyoruz
 
 ```console
 $ flutter create echoclient
 ```
 
-öncelikle dart için gRPC ortamını hazırlamamız lazım
-ben linux için anlatıyorum
+öncelikle dart için gRPC plugin kurulumunu yapalım,**ben linux için anlatıyorum**
 
 [https://github.com/protocolbuffers/protobuf/releases](https://github.com/protocolbuffers/protobuf/releases)
 
@@ -204,6 +204,13 @@ aşağıdaki komutu yazarak  protobuf plugin active edin
 $ pub global activate protoc_plugin
 ```
 
+daha önce bahsetmiş olduğum **echo.proto** dosyasını echoclient dizini altındaki proto dizinine kopyalayın
+
+aşağıdaki komutu çalıştırın ve proxy dosyalarını oluşturun.Bu dosyalar lib dizini altında protos dizinine oluşturulacak
+```console
+$ protoc --dart_out=grpc:lib/  proto/echo.proto
+```
+
 şimdi flutter projesi  **pubspec.yaml** dosyasına gelelelim aşağıdaki paketleri ekleyelim
 
 ```yaml
@@ -214,14 +221,7 @@ dependencies:
   crypto: ^2.0.6
 ```
 
-daha önce bahsetmiş olduğum **echo.proto** dosyasını echoclient dizini altındaki proto dizinine kopyalayın
-
-aşağıdaki komutu çalıştırın ve proxy dosyalarını oluşturun.Bu dosyalar lib dizini altında protos dizinine oluşturulacak
-```console
-$ protoc --dart_out=grpc:lib/  proto/echo.proto
-```
-
-lib dizini altına echoservice.dart adına bir dosya oluşturalım ve aşağıdaki kodları ekleyelim. Bu kodlar gRPC server ile bağlantı kurmamızı sağlayacak
+**lib** dizini altına **echoservice.dart** adına bir dosya oluşturalım ve aşağıdaki kodları ekleyelim. 
 
 ```dart
 import 'package:echoclient/proto/echo.pb.dart';
@@ -256,7 +256,7 @@ class EchoService {
 
 Şimdi yukardaki kodları UI kısmında kullanalım.
 
-main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string değeri alıyoruz ve bunu gönderiyoruz gelen cevabı da bir Text field ile gösteriyoruz.
+main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string değeri alıyoruz ve bunu gönderiyoruz gelen cevabı da bir Text ile gösteriyoruz.
 
 ```dart
 ...
