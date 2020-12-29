@@ -57,7 +57,7 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
 ## RUST ile gRPC sunucu uygulaması
 
 
-Rust dilinde gRPC kullanabilmemizi sağlayacak framework'ün ismi **tonic** 
+Rust dilinde gRPC kullanabilmemizi sağlayacak framework'ün ismi **[tonic](https://github.com/hyperium/tonic)** 
     
     Bu aşamada,RUST geliştirme ortamının kurulmuş olduğunu varsayıyorum.
 
