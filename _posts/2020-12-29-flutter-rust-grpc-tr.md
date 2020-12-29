@@ -66,10 +66,9 @@ Aşağıdaki shell komutlarını çalıştırıyoruz
 ```console
 $ cargo new echo-server
 ```
-Şimdi mevcut dizini visual studio code ile açalım
-("code  . ")
+Şimdi oluşturalan proje dizinini visual studio code ile açalım
 
-arından proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir dosya oluşturuyoruz. içeriği şu şekilde olacak.
+ardından proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir dosya oluşturuyoruz. içeriği şu şekilde olacak.
 
 ```protobuf
 syntax = "proto3";
@@ -195,7 +194,7 @@ $ flutter create echoclient
 [https://github.com/protocolbuffers/protobuf/releases](https://github.com/protocolbuffers/protobuf/releases)
 
 
-bu adresten ilgili toolu indirip **path** listesine ekleyin
+bu adresten ilgili toolu indirip sistem **path** listesine ekleyin
 
 
 aşağıdaki komutu yazarak  protobuf plugin active edin
@@ -204,7 +203,7 @@ aşağıdaki komutu yazarak  protobuf plugin active edin
 $ pub global activate protoc_plugin
 ```
 
-daha önce bahsetmiş olduğum **echo.proto** dosyasını ***echoclient/proto** dizinine kopyalayın
+daha önce bahsetmiş olduğum sunucu tarafında kullandığımız **echo.proto** dosyasını ***echoclient/proto** dizinine kopyalayın
 
 aşağıdaki komutu çalıştırın ve proxy dosyalarını oluşturun.Bu dosyalar **lib/protos** dizinine oluşturulacak
 ```console
@@ -254,7 +253,7 @@ class EchoService {
 }
 ```
 
-Şimdi yukardaki kodları UI kısmında kullanalım.
+Şimdi yukardaki kodları uygulamanın UI kısmında kullanalım.
 
 main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string değeri alıyoruz ve bunu gönderiyoruz gelen cevabı da bir Text ile gösteriyoruz.
 
