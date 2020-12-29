@@ -49,9 +49,8 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
 
 ## RUST ile gRPC server kodlamak
 
-    Genel senaryo şu şekilde olacak...
-    Basit bir flutter uygulaması yazacağım. 
-    İki text alanı olacak.
+    Basit olarak senaryo şu şekilde olacak...
+    Flutter uygulaması yazacağım,iki text alanı olacak.
     Bu uygulama  gRPC istemicisi olarak çalışacak. 
     Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
     Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
