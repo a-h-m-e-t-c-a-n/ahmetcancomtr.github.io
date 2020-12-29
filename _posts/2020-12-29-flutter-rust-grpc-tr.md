@@ -12,8 +12,6 @@ usemathjax: true
 ---
 
 
-
-    Bu yazı için,temel düzeyde FlutterSDK/Dart, Rust programlama dilleri/framework'leri  hakkında bilginiz olması gerekiyor.
     
     Geliştirme Ortamı:
     Ubuntu 20.04 
