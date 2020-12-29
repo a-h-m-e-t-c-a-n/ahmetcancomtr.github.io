@@ -32,7 +32,7 @@ Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil
     yazım  ve effektif memory management sunabilecek bir programalma dili.**
     
 
-RUST performansını C dili karşılaştırabilriz,Özellikle C++ demiyorum kendi denemelerimde C++ dan daha hızlı çalıştığını gördüm. Şöyle ki yazılmış bir benchmark kodunda oluşturulan algoritma 
+RUST performansını C dili karşılaştırabiliriz,Özellikle C++ demiyorum kendi denemelerimde C++ dan daha hızlı çalıştığını gördüm. Şöyle ki yazılmış bir benchmark kodunda oluşturulan algoritma 
  
 |       |                      |          |
 |:------|:---------------------|:--------:|
@@ -48,7 +48,7 @@ gibi bir sürede tamamlandı
 Peki bu kadar hızlı olmasının nedeni nedir ?!.. Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli **RUST** hakkında daha detaylı bilgilere [referans dökümanlardan](https://doc.rust-lang.org/book/) ulaşabilirsiniz.
 
 
-Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tarafında tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız çok büyük sorun yaratmayacaktır.
+Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tarafında tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmanız herhangi bir sorun oluşturmaz.
 
 
     Basit olarak senaryo şu şekilde olacak...
