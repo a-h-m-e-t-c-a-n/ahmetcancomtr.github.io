@@ -22,7 +22,7 @@ usemathjax: true
     Rust SDK
 
 
-**Kodların tamamını github repositorim üzerinden indirebilirsini!**
+**Kodların tamamını github repositorim üzerinden indirebilirsiniz!**
 **[https://github.com/ahmetcancomtr/flutter_rust_grpc](https://github.com/ahmetcancomtr/flutter_rust_grpc)**
 
 
@@ -49,7 +49,12 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
 
 ## RUST ile gRPC server kodlamak
 
-    Genel senaryo şu şekilde olacak. Basit bir flutter uygulaması yazacağım. İki text alanı olacak.Bu uygulama  gRPC istemicisi olarak çalışacak. gRPC stream özelliğini kullanarak rust ile yazılmış gRPC server a bağlı kalmış olacak.(aslında Websocket gibi long live tcp/ip bağlantısı). Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
+    Genel senaryo şu şekilde olacak...
+    Basit bir flutter uygulaması yazacağım. 
+    İki text alanı olacak.
+    Bu uygulama  gRPC istemicisi olarak çalışacak. 
+    Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
+    Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
 
 gRPC için rust dilini kullanarak geliştirme yapabileceğini tonic isminde bir framework mevcut.
 
@@ -128,6 +133,8 @@ use tonic::{transport::Server, Request, Response, Status};
 use echo_grpc::echo_server:: {Echo, EchoServer};
 use echo_grpc::{EchoReply, EchoRequest};
 
+use std::net::{IpAddr, Ipv4Addr, SocketAddr};
+
 pub mod echo_grpc {
     tonic::include_proto!("echopackage"); 
 }
@@ -138,7 +145,7 @@ pub struct EchoImpl {}
 #[tonic::async_trait]
 impl Echo for EchoImpl {
     async fn do_echo(&self,request: Request<EchoRequest>,) -> Result<Response<EchoReply>,Status> { 
-        println!("Echo Request {:?}", request);
+        println!("Got a request: {:?}", request);
         let reply = echo_grpc::EchoReply {
             reply_content: request.into_inner().source_content,
         };
@@ -149,12 +156,14 @@ impl Echo for EchoImpl {
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    let addr = "[::1]:50051".parse()?;
+   // let addr = "[::1]:50051".parse()?;
+    let socket = SocketAddr::new(IpAddr::V4(Ipv4Addr::new(0, 0, 0, 0)), 50051);
+
     let echoservice = EchoImpl::default();
 
     Server::builder()
         .add_service(EchoServer::new(echoservice))
-        .serve(addr)
+        .serve(socket)
         .await?;
 
     Ok(())
