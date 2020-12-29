@@ -203,7 +203,7 @@ aşağıdaki komutu yazarak  protobuf plugin active edin
 $ pub global activate protoc_plugin
 ```
 
-daha önce bahsetmiş olduğum sunucu tarafında kullandığımız **echo.proto** dosyasını ***echoclient/proto** dizinine kopyalayın
+daha önce bahsetmiş olduğum sunucu tarafında kullandığımız **echo.proto** dosyasını **echoclient/proto** dizinine kopyalayın
 
 aşağıdaki komutu çalıştırın ve proxy dosyalarını oluşturun.Bu dosyalar **lib/protos** dizinine oluşturulacak
 ```console
