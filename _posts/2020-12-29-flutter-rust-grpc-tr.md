@@ -48,7 +48,7 @@ gibi bir sürede tamamlandı
 Peki bu kadar hızlı olmasının nedeni nedir ?... Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli **RUST** hakkında daha detaylı bilgilere [referans dökümanlardan](https://doc.rust-lang.org/book/) ulaşabilirsiniz.
 
 
-Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tararında, tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız, çok büyük sorun yaratmayacaktır.
+Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tarafında tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız çok büyük sorun yaratmayacaktır.
 
 
     Basit olarak senaryo şu şekilde olacak...
