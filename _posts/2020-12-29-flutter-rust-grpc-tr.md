@@ -45,6 +45,9 @@ RUST performansını C dili karşılaştırabilriz,Özellikle C++ demiyorum kend
 gibi bir sürede tamamlandı
 Peki bu kadar hızlı olmasının nedeni nedir ?... Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli RUST hakkında daha detaylı bilgilere referans dökümanlardan ulaşabilirsiniz.
 
+**[Techempower.com Behcmark 2020/Backend Frameworks](https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=query
+)**
+
 Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tararında, tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız, çok büyük sorun yaratmayacaktır.
 
 ## RUST ile gRPC server kodlamak
@@ -90,7 +93,7 @@ message EchoReply {
 aşağıdaki gibi görünecek
 ![alt text](/assets/img/posts/echo_proto.png "echo.proto")
 
-Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Aklınızda hala eksik birşeyler varsa protobuf formatında bakabilirsiniz.***(JSON yerine kullanılan binary format)***
+Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, protobuf formatına detaylı bakabilirsiniz.***(JSON yerine kullanılan binary format)***
 
 
 Şimdi rust ın kullanacağı bağımlılık paketlerini ekleyelim
