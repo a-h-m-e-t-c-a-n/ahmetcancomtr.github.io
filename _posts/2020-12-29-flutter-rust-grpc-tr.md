@@ -14,7 +14,7 @@ usemathjax: true
 
     
     Geliştirme Ortamı:
-    Ubuntu 20.04 
+    Ubuntu 20.10 
     Visual Studio Code
     Flutter SDK
     Rust SDK
