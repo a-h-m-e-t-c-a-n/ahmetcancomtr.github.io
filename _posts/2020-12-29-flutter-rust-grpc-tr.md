@@ -200,7 +200,7 @@ bu adresten ilgili toolu indirip sistem **path** listesine ekleyin
 aşağıdaki komutu yazarak  protobuf plugin active edin
 
 ```console
-$ pub global activate protoc_plugin
+$ flutter pub global activate protoc_plugin
 ```
 
 daha önce bahsetmiş olduğum sunucu tarafında kullandığımız **echo.proto** dosyasını  **echoclient/proto** dizinine kopyalayın
