@@ -49,7 +49,6 @@ Peki bu kadar hızlı olmasının nedeni nedir ?... Tabi ki C dili gibi araya hi
 
 Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tararında, tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmamız, çok büyük sorun yaratmayacaktır.
 
-## RUST ile gRPC server kodlamak
 
     Basit olarak senaryo şu şekilde olacak...
     Flutter uygulaması yazacağım,iki text alanı olacak.
@@ -57,8 +56,10 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
     Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
     Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
 
-gRPC için rust dilini kullanarak geliştirme yapabileceğiniz tonic isminde bir framework mevcut.
+## RUST ile gRPC server kodlamak
 
+
+Rust dilinde gRPC kullanabilmemizi sağlayacak framework'ün ismi **tonic** 
     
     Bu aşamada,RUST geliştirme ortamının kurulmuş olduğunu varsayıyorum.
 
@@ -95,7 +96,7 @@ aşağıdaki gibi görünecek
 Bu tanım , **tonic** tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, protobuf formatına detaylı bakabilirsiniz.***(JSON yerine kullanılan binary format)***
 
 
-Şimdi rust ın kullanacağı bağımlılık paketlerini ekleyelim
+Şimdi rust ın kullanacağı bağımlılıkları ekleyelim
 Cargo.toml dosyasını açın ve aşağıdaki satırları kopyalayın
 
 
@@ -277,6 +278,10 @@ main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string
 ....
 ```
 
-ve butona bastığımız zaman
+butona bastığımız zaman
+
+
 ![alt text](/assets/img/posts/sonuc.png "Sonuç")
+
+
 
