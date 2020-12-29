@@ -54,7 +54,7 @@ Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değ
     Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
     Server içerik üzerinde bir değişiklik yapmayacağı için "echo server" server diyebiliriz.
 
-## RUST ile gRPC server kodlamak
+## RUST ile gRPC sunucu uygulaması
 
 
 Rust dilinde gRPC kullanabilmemizi sağlayacak framework'ün ismi **tonic** 
@@ -177,7 +177,7 @@ $ cargo run
 **artık gRPC sunucumuz hizmet vermeye başladı**
 
 
-## FlutterSDK ile gRPC client kodlamak
+## Flutter ile gRPC istemci uygulaması 
 Şimdi gRPC istemcisi için Flutter Uygulamasını  hazırlayalım
     
     Bu aşamada Flutter geliştirme ortamının kurulduğunu varsayıyorum
