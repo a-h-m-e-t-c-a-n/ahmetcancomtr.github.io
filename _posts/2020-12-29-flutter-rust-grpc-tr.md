@@ -177,7 +177,7 @@ komutunu yazıp çalıştırıyoruz ve artık gRPC sunucumuz hazır
 
 
 ## FlutterSDK ile gRPC client kodlamak
-Şimdi gRPC client için Flutter Android Uygulamasını  hazırlayalım
+Şimdi gRPC client için Flutter Uygulamasını  hazırlayalım
     
     Bu aşamada Flutter geliştirme ortamının kurulduğunu varsayıyorum
 
