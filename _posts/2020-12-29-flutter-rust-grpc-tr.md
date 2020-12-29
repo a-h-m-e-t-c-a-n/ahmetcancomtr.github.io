@@ -275,6 +275,12 @@ main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string
 ....
 ```
 
+aşağıdaki shell komutunu kullanarak flutter uygulamamızı çalıştıralım
+
+```console
+$ flutter run
+```
+
 butona bastığımız zaman
 
 
