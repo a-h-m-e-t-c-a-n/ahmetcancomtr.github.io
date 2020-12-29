@@ -12,7 +12,6 @@ usemathjax: true
 ---
 
 
-## Flutter, Rust ve gRPC ile Işık Hızına Çıkın
 
     Bu yazı için özet Temel düzeyde FlutterSDK/Dart ,Rust programlama dilleri/framework'leri  hakkında bilginiz olması gerekiyor.
     
