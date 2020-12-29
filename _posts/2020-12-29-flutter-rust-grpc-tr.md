@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
-summary: "Flutter, Rust ve gRPC ile Işık Hızına Çıkın"
+summary: "Rust gRPC ve Flutter kullanarak donanımın en yüksek verimlilikte kullanabileceğiniz http/2 temelli mobil-fullstack uygulama geliştirme"
 author: ahmetcan
 date: '2020-12-29 04:52:00 +2'
 category: [flutter]
