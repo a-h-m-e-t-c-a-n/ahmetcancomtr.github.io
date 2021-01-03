@@ -4,7 +4,7 @@ title:  "Android uygulamanızda Marketing ve monitorization için Playstore refe
 summary: "Referrer API android uygulamanızı indiren kullanıcının hangi ortam üzerinden playstore ulaştığını bilmenizi sağlar!"
 author: ahmetcan
 date: '2021-01-03 20:00:00 +2'
-category: [android,playstore,turkish]
+category: [android,playstore,tr]
 thumbnail: /assets/img/playstore.jpg
 keywords: android, analytic, monitorization ,marketing,playstore,development
 permalink: /blog/playstore-referrer-api-tr/
