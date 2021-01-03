@@ -5,7 +5,7 @@ summary: "Referrer API android uygulamanızı indiren kullanıcının hangi orta
 author: ahmetcan
 date: '2021-01-03 20:00:00 +2'
 category: [android,playstore]
-thumbnail: /assets/img/rust.png
+thumbnail: /assets/img/playstore.jpg
 keywords: android, analytic, monitorization ,marketing,playstore,development
 permalink: /blog/playstore-referrer-api-tr/
 usemathjax: true
