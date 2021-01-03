@@ -4,7 +4,7 @@ title:  "Do you use effectively Playstore Referrer API on your Android Applicati
 summary: "Referrer API enables you know from which environment the user who downloaded your android application accessed the playstore!"
 author: ahmetcan
 date: '2021-01-03 20:00:00 +2'
-category: [android,playstore]
+category: [android,playstore,english]
 thumbnail: /assets/img/playstore.jpg
 keywords: android, analytic, monitorization ,marketing,playstore,development
 permalink: /blog/playstore-referrer-api-en/
