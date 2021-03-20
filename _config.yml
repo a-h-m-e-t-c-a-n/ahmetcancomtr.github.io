@@ -98,7 +98,7 @@ author_project_details:
               - project_thumbnail: dragoman.png
                 project_title: Dragoman Chat Translator
                 project_description: Android App on PlayStore
-                project_url: https://play.google.com/store/apps/details?id=ahmetcan.dragoman.whatsapp
+                project_url: https://play.google.com/store/apps/details?id=ahmetcan.dragoman.whatsapp&referrer=utm_source%3D1
                 project_url_title: Playstore
                 visibility: true
               - project_thumbnail: hack4r.PNG
