@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ahmet CAN</title>
+    <description>Senior Software Developer, Web And Mobile Full-Stack , Speaks English and Turkish</description>
+    <link>https://ahmetcan.com.tr/</link>
+    <atom:link href="https://ahmetcan.com.tr/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 02 Aug 2021 14:56:16 +0000</pubDate>
+    <lastBuildDate>Mon, 02 Aug 2021 14:56:16 +0000</lastBuildDate>
+    <generator>Jekyll v4.1.1</generator>
+
+    
+      <item>
+        <title>Android uygulamanızda Marketing ve monitorization için Playstore referrer API yı etkin olarak kullanıyor musunuz ?</title>
+        <description>&lt;p&gt;Referrer API android uygulamanızı indiren kullanıcının hangi ortam üzerinden playstore ulaştığını bilmenizi sağlar.
+Organik vs ayrımlarını yapmamızı kolaylaştırır.Bu bilgiyi çeşitli şekillerde kullanabiliriz en basiti kampanyalarımızı buna göre şekillendirebiliriz.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://play.google.com/store/apps/details?id=com.example.application
+&lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt;referrer=utm_source%3Dgoogle
+%26utm_medium%3Dcpc
+%26utm_term%3Drunning%252Bshoes
+%26utm_content%3Dlogolink
+%26utm_campaign%3Dspring_sale
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Detaylı bilgiye aşağıdaki linkten ulaşabilirsiniz&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developers.google.com/analytics/devguides/collection/android/v4/campaigns&quot;&gt;https://developers.google.com/analytics/devguides/collection/android/v4/campaigns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 03 Jan 2021 20:00:00 +0000</pubDate>
+        <link>https://ahmetcan.com.tr/blog/playstore-referrer-api-tr/</link>
+        <guid isPermaLink="true">https://ahmetcan.com.tr/blog/playstore-referrer-api-tr/</guid>
+      </item>
+    
+      <item>
+        <title>Do you use effectively Playstore Referrer API on your Android Application for monitorization and marketing ?</title>
+        <description>&lt;p&gt;The Referrer API allows you to know from which environment the user who downloaded your android application accessed the playstore.
+It makes it easier for us to distinguish between organic vs.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;https://play.google.com/store/apps/details?id=com.example.application
+&lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt;referrer=utm_source%3Dgoogle
+%26utm_medium%3Dcpc
+%26utm_term%3Drunning%252Bshoes
+%26utm_content%3Dlogolink
+%26utm_campaign%3Dspring_sale
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can read details from the link below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://developers.google.com/analytics/devguides/collection/android/v4/campaigns&quot;&gt;https://developers.google.com/analytics/devguides/collection/android/v4/campaigns&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 03 Jan 2021 20:00:00 +0000</pubDate>
+        <link>https://ahmetcan.com.tr/blog/playstore-referrer-api-en/</link>
+        <guid isPermaLink="true">https://ahmetcan.com.tr/blog/playstore-referrer-api-en/</guid>
+      </item>
+    
+      <item>
+        <title>Flutter, Rust ve gRPC ile Işık Hızına Çıkın</title>
+        <description>&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Geliştirme Ortamı:
+Ubuntu 20.10 
+Visual Studio Code
+Flutter SDK
+Rust SDK
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Kodların tamamını github üzerinden indirebilirsiniz!&lt;/strong&gt;
+&lt;strong&gt;&lt;a href=&quot;https://github.com/ahmetcancomtr/flutter_rust_grpc&quot;&gt;https://github.com/ahmetcancomtr/flutter_rust_grpc&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Yazıya başlamadan önce Günümüzde popularitesini arttıran Rust ve gRPC gibi teknolojileri neden kullanmalıyız değinmek istiyorum.&lt;/p&gt;
+
+&lt;p&gt;Rust Mayıs/2015 te 1.0 versionu çıkmış 2016 stackoverflow da en populer dil olarak seçilmiştir. Peki bu hızlı yükselişin ardında ne var. Performans olarak en hızlı programlama dili dediğimizde aklımıza  C dili geliyor.C dilide yazılan kodlar derlendiği zaman öz ve doğrudan araya bir katman girmeden çok hızlı çalışabilecek makine kodlarına dönüştürülüyor.C dili bu yüzden sistem programlamada ağırlıklı olarak kullanıyor. Günümüzde uygulama programlama alanında c ve c++ gibi diller pek tercih edilmiyor. C#,java JavaScript gibi üst seviye diller, öğrenme eğrisinin yüksek olması ve nispeten daha kolay anlalışabilir  olduğu için uygulama programcıları tarafından daha çok tercih ediliyor.CLR,JVM,JIT gibi runtime katmanları üzerine kurgulanmış bu diller cross platform ve moduler geliştirme konusunda yüksek uyumluluk sağlıyor. Peki neler kaybettiriyor ? Tabi ki performanstan ödün vermek zorunda kalıyoruz. Günümüzde Net framework 5 çıkmasıyla optimizasyonu çok iyi duruma gelen .Net Framework en hızlı haliyle bile C programlama dilinin oluşturduğu kodlardan çok daha yavaş çalışıyor ve donanım kaynaklarını daha fazla tüketiyor. Bunun nedeni CLR runtime tarafından yorumlanan ara kodların makine kodlarına dönüştürülme safhası.Ayrıca programcıların kolay memory management yapabilmesi açısından Garbage Collection bir mekanizmanın olması çok büyük bir etken.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;O zaman ihtiyacımız olan şey C kadar hızlı aynı zamanda C#,jAVA vs.. gibi üst seviye diller kadar kolay 
+    yazım  ve effektif memory management sunabilecek bir programalma dili.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;RUST performansını C dili karşılaştırabiliriz,Özellikle C++ demiyorum kendi denemelerimde C++ dan daha hızlı çalıştığını gördüm. Şöyle ki yazılmış bir benchmark kodunda oluşturulan algoritma&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt; &lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C(clang)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;0.7 sn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Rust(1.48.0)&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;&lt;strong&gt;0.8 sn&lt;/strong&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C++(g++)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;1.5 sn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;4.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Go(1.14.7)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3.9 sn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;5.&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;C#(Net5)&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;5.1 sn&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt; &lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt; &lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;gibi bir sürede tamamlandı
+Peki bu kadar hızlı olmasının nedeni nedir ?!.. Tabi ki C dili gibi araya hiçbir katman girmeden, doğrudan makine kodlarına dönüştürülmesi ve garbage collection gibi yöntemler yerine referance-ownership ve borrow-check gibi yöntemlerle maliyeti düşük memory management yapabilmesi. Şimdilik bu kadar yeterli &lt;strong&gt;RUST&lt;/strong&gt; hakkında daha detaylı bilgilere &lt;a href=&quot;https://doc.rust-lang.org/book/&quot;&gt;referans dökümanlardan&lt;/a&gt; ulaşabilirsiniz.&lt;/p&gt;
+
+&lt;p&gt;Peki Rest/websocket yerine neden gRPC kullanıyorum derseniz ona da kısaca değinmekte fayda var. Daha henüz tam anlamıyla desteklenmeyen, http/2 ile gelen yeniliklerden biri olan gRPC, performans açısından rest arasında çok ciddi farklar var . Bunun hakkında yapılmış benchmark çalışmalarını incelemenizi tavsiye ederim.gRPC, web tarafında tüm browserlar tarafından henüz tam olarak desteklenmiyor fakat mobil istemcilerde kullanmanız herhangi bir sorun oluşturmaz.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Basit olarak senaryo şu şekilde olacak...
+Flutter uygulaması yazacağım,iki text alanı olacak.
+Bu uygulama  gRPC istemicisi olarak çalışacak. 
+Text kutularından birine yazı yazıldığında server a gidecek ve dönen cevap diğer text kutusuna yazılacak.
+Server içerik üzerinde bir değişiklik yapmayacağı için &quot;echo server&quot; server diyebiliriz.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;rust-ile-grpc-sunucu-uygulaması&quot;&gt;RUST ile gRPC sunucu uygulaması&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Rust&lt;/strong&gt; üzerinde gRPC kullanabilmemizi sağlayacak framework’ün ismi &lt;strong&gt;&lt;a href=&quot;https://github.com/hyperium/tonic&quot;&gt;tonic&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Bu aşamada,RUST geliştirme ortamının kurulmuş olduğunu varsayıyorum.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aşağıdaki shell komutlarını çalıştırıyoruz&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;cargo new echo-server
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Şimdi oluşturalan proje dizinini visual studio code ile açalım&lt;/p&gt;
+
+&lt;p&gt;ardından proto isminde bir dizin oluşturalım. Onun altına da echo.proto isminde bir dosya oluşturuyoruz. içeriği şu şekilde olacak.&lt;/p&gt;
+
+&lt;div class=&quot;language-protobuf highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;syntax&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&quot;proto3&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;package&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;echopackage&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;service&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Echo&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;rpc&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;do_echo&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;returns&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoReply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;EchoRequest&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt;  &lt;span class=&quot;na&quot;&gt;source_content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;message&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;EchoReply&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kt&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;reply_content&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ve aşağıdaki gibi görünecek
+&lt;img src=&quot;/assets/img/posts/echo_proto.png&quot; alt=&quot;alt text&quot; title=&quot;echo.proto&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Bu tanım , &lt;strong&gt;tonic&lt;/strong&gt; tarafından gRPC server proxy kodlarının üretilmesinde kullanılacak.Ayrıca bu proto tanımı flutter uygulamasının kullanacağı gRPC client proxy kodlarının üretilmesinde de kullanılacak. Böylece sunucu ve istemci arasında gerçekleşecek haberleşme protobuf formatında tam uyumlu olmuş olacak. Hala henüz bu konuda bilmediğiniz bazı şeyler olduğunu düşünüyorsanız, &lt;a href=&quot;https://developers.google.com/protocol-buffers&quot;&gt;protobuf&lt;/a&gt; formatına detaylı bakabilirsiniz.&lt;strong&gt;&lt;em&gt;(JSON yerine kullanılan binary format)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Şimdi rust ın kullanacağı bağımlılıkları ekleyelim
+Cargo.toml dosyasını açın ve aşağıdaki satırları kopyalayın&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;package&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;name = &quot;echo-server&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;version = &quot;0.1.0&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;authors = [&quot;ahmet can &amp;lt;mail@ahmetcan.com.tr&amp;gt;&quot;]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;edition = &quot;2018&quot;&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;dependencies&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;tonic = &quot;0.3&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;prost = &quot;0.6&quot;&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;tokio = { version = &quot;0.2&quot;, features = [&quot;macros&quot;] }&lt;/span&gt;
+
+&lt;span class=&quot;pi&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;build-dependencies&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;]&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;tonic-build = &quot;0.3&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;projenin root dizine build.rs isminde bir dosya oluşturun ve aşağıda verilmiş olan kodları ekleyin
+bu &lt;strong&gt;tonic&lt;/strong&gt; tarafından çalıştılacak ve derleme aşamasında gRPC proxy kodların üretilmesini sağlayacak.&lt;/p&gt;
+
+&lt;div class=&quot;language-rust highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dyn&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nn&quot;&gt;tonic_build&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;compile_protos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;proto/echo.proto&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nf&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(())&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aşağıdaki kodları  src/main.rs içine kopyalayın&lt;/p&gt;
+&lt;div class=&quot;language-rust highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;tonic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::{&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;transport&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Status&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;echo_grpc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;echo_server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Echo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoServer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;echo_grpc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoReply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoRequest&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;use&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;net&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;IpAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Ipv4Addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;SocketAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;mod&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echo_grpc&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nn&quot;&gt;tonic&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nd&quot;&gt;include_proto!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;echopackage&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; 
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;#[derive(Debug,&lt;/span&gt; &lt;span class=&quot;nd&quot;&gt;Default)]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;pub&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;struct&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoImpl&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{}&lt;/span&gt;
+
+&lt;span class=&quot;nd&quot;&gt;#[tonic::async_trait]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;impl&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Echo&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoImpl&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;do_echo&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Request&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,)&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Response&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoReply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Status&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+        &lt;span class=&quot;nd&quot;&gt;println!&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Got a request: {:?}&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reply&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;echo_grpc&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoReply&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;n&quot;&gt;reply_content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.into_inner&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;py&quot;&gt;.source_content&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;Response&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; 
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+&lt;span class=&quot;nd&quot;&gt;#[tokio::main]&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;-&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Result&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Box&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;dyn&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;std&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Error&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+   &lt;span class=&quot;c&quot;&gt;// let addr = &quot;[::1]:50051&quot;.parse()?;&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;socket&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;SocketAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;IpAddr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;V4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;Ipv4Addr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)),&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50051&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;echoservice&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;EchoImpl&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;default&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+    &lt;span class=&quot;nn&quot;&gt;Server&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;builder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;.add_service&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nn&quot;&gt;EchoServer&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;new&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;echoservice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+        &lt;span class=&quot;nf&quot;&gt;.serve&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;.await&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;?&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;nf&quot;&gt;Ok&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(())&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;aşağıdaki shell komutunu çalıştırın&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;cargo run 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;artık gRPC sunucumuz hizmet vermeye başladı&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;flutter-ile-grpc-istemci-uygulaması&quot;&gt;Flutter ile gRPC istemci uygulaması&lt;/h2&gt;
+&lt;p&gt;Şimdi gRPC istemcisi için Flutter Uygulamasını  hazırlayalım&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Bu aşamada Flutter geliştirme ortamının kurulduğunu varsayıyorum
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aşağıdaki komutu shell komutunu çalıştırıp flutter uygulaması oluşturuyoruz ve projeyi visual studio code ile açıyoruz&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;flutter create echoclient
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;öncelikle dart için gRPC plugin kurulumunu yapalım,&lt;strong&gt;ben linux için anlatıyorum&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/protocolbuffers/protobuf/releases&quot;&gt;https://github.com/protocolbuffers/protobuf/releases&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;bu adresten ilgili toolu indirip sistem &lt;strong&gt;path&lt;/strong&gt; listesine ekleyin&lt;/p&gt;
+
+&lt;p&gt;aşağıdaki komutu yazarak  protobuf plugin active edin&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;flutter pub global activate protoc_plugin
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;daha önce bahsetmiş olduğum sunucu tarafında kullandığımız &lt;strong&gt;echo.proto&lt;/strong&gt; dosyasını  &lt;strong&gt;echoclient/proto&lt;/strong&gt; dizinine kopyalayın&lt;/p&gt;
+
+&lt;p&gt;aşağıdaki komutu çalıştırın ve proxy dosyalarını oluşturun.Bu dosyalar &lt;strong&gt;lib/protos&lt;/strong&gt; dizinine oluşturulacak&lt;/p&gt;
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;protoc &lt;span class=&quot;nt&quot;&gt;--dart_out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;grpc:lib/  proto/echo.proto
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;şimdi flutter projesi  &lt;strong&gt;pubspec.yaml&lt;/strong&gt; dosyasına gelelelim aşağıdaki paketleri ekleyelim&lt;/p&gt;
+
+&lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;dependencies&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;s&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;s&quot;&gt;grpc&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;^1.0.1&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;protobuf&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;^0.13.4&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;crypto&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;^2.0.6&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;lib&lt;/strong&gt; dizini altına &lt;strong&gt;echoservice.dart&lt;/strong&gt; adına bir dosya oluşturalım ve aşağıdaki kodları ekleyelim.&lt;/p&gt;
+
+&lt;div class=&quot;language-dart highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'package:echoclient/proto/echo.pb.dart'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'package:echoclient/proto/echo.pbgrpc.dart'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;'package:grpc/grpc.dart'&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;EchoService&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoClient&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;EchoService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;EchoClient&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;ClientChannel&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;s&quot;&gt;&quot;192.168.1.33&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;port:&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;50051&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;nl&quot;&gt;options:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ChannelOptions&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+          &lt;span class=&quot;nl&quot;&gt;credentials:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ChannelCredentials&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;insecure&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(),&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+      &lt;span class=&quot;o&quot;&gt;),&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;n&quot;&gt;Future&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoReply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;commitMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;do_echo&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;EchoRequest&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt;
+        &lt;span class=&quot;o&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;sourceContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;body&lt;/span&gt;
+        
+    &lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Şimdi yukardaki kodları uygulamanın UI kısmında kullanalım.&lt;/p&gt;
+
+&lt;p&gt;main.dart altında ilgili değişiklikleri yaptık bir tane TextField ile string değeri alıyoruz ve bunu gönderiyoruz gelen cevabı da bir Text ile gösteriyoruz.&lt;/p&gt;
+
+&lt;div class=&quot;language-dart highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;...&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;EchoService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;currentReply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;final&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;request_text_controller&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;TextEditingController&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;();&lt;/span&gt;
+  &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;_sendToServer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;async&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;commitMessage&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;request_text_controller&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+       &lt;span class=&quot;n&quot;&gt;_reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;reply&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;replyContent&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+
+  &lt;span class=&quot;nd&quot;&gt;@override&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;Widget&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;BuildContext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;context&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;....&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;aşağıdaki shell komutunu kullanarak flutter uygulamamızı çalıştıralım&lt;/p&gt;
+
+&lt;div class=&quot;language-console highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;flutter run
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;butona bastığımız zaman&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/sonuc.png&quot; alt=&quot;alt text&quot; title=&quot;Sonuç&quot; /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 29 Dec 2020 04:52:00 +0000</pubDate>
+        <link>https://ahmetcan.com.tr/blog/flutter-rust-grpc/</link>
+        <guid isPermaLink="true">https://ahmetcan.com.tr/blog/flutter-rust-grpc/</guid>
+      </item>
+    
+
+  </channel>
+</rss>

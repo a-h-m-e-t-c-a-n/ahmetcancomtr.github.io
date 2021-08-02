@@ -1,0 +1,18 @@
+{
+  "name": "ahmetcan",
+  "homepage": "https://github.com/ahmetcancomtr",
+  "authors": [
+    "ahmetcan <mail@ahmetcan.com.tr>"
+  ],
+  "description": "work smarter !not harder",
+  "main": "",
+  "keywords": ["developer", "software","python","c#","android","keras","tensorflow",".net","core","dotnet","engineer","linux","docker","blog"],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
