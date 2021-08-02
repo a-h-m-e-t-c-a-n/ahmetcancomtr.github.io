@@ -142,15 +142,21 @@
   <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
   <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
   <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QZK7JSWRMF"></script>
+  
+<!-- Matomo -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){
-    dataLayer.push(arguments);
-  }
-  gtag('js', new Date());
-  gtag('config', 'G-QZK7JSWRMF');
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.ahmetcan.com.tr"]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//xmachine.uk/mtm/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '4']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->
 </head>
