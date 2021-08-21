@@ -32,7 +32,7 @@ Peki nasıl yapıyor bu işi. Sizin domain iniz aldındaki web server üzerinde 
 Bu projede herşey docker-compose üzerinde  tanımlanmış durumda bu yüzden kullanımı oldukça kolay.
 
 önce projeyi indirelim
-```html
+```console
 git clone https://github.com/ahmetcancomtr/reverseproxy.git
 cd reverseproxy
 ```
