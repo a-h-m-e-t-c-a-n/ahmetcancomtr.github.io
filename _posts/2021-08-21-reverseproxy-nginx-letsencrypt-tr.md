@@ -53,7 +53,8 @@ DOMAINS=domain1.xmachine.uk domain2.xmachine.uk
 CERTBOT_EMAILS=admin@xmachine.uk
 ```
 
-reverse proxy konfigurasyonunuzu aşağıdaki nginx config dosyalarına ekleyerek yapabilirsiniz
+reverse proxy konfigurasyonunuzu aşağıdaki nginx config dosyaları üzerinden yapabilirsin , her bir domain "domains" klasörü altında bir config dosyası eklemen yeterli otomatik olarak nginx config dosyasına eklenecektir.default.config içinde de bu yeni eklenen config dosyasını  dahil etmiş olacaksın
+
 ```console
 //nginx/default.config
 //nginx/domains/domain1.config
