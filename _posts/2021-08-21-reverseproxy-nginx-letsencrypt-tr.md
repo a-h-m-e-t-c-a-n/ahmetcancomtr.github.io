@@ -54,6 +54,6 @@ hata alırsa birşeyler yanlış gidiyorsa logları takip edersen kolayca farked
 
 bir aksilik çıkarsa bana yazmayı unutma elimden geldiğince yardımcı olurum.
 
-github da bana yıldızları eksik etme :)
+github da yıldızlarını bekliyorum :)
 
 iyi çalışmalar.
