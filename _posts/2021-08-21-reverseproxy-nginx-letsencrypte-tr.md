@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Android uygulamanızda Marketing ve monitorization için Playstore referrer API yı etkin olarak kullanıyor musunuz ?"
-summary: "Referrer API android uygulamanızı indiren kullanıcının hangi ortam üzerinden playstore ulaştığını bilmenizi sağlar!"
+title:  "Docker,Nginx ve Letsencypte(ücretsiz SSL) reverse proxy configurasyonu"
+summary: "Mid,Senior seviyesindeki bu makalede hızlı ve pratik bir şekilde ücretsiz SSL konfigurasyonu ile birlikte bir reverse-proxy nasıl yapılandırılır öğreneceksin"
 author: ahmetcan
-date: '2021-01-03 20:00:00 +2'
-category: [android,playstore,tr]
+date: '2021-08-21 18:00:00 +2'
+category: [backend,tr]
 thumbnail: /assets/img/playstore.jpg
-keywords: android, analytic, monitorization ,marketing,playstore,development
-permalink: /blog/playstore-referrer-api-tr/
+keywords: reverse-proxy, nginx, letsencrypte ,ssl,docker
+permalink: /blog/reverseproxy-nginx-letsencrypte-tr/
 usemathjax: true
 ---
 
