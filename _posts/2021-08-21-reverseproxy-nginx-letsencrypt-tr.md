@@ -25,7 +25,7 @@ SSL fiyatları aldı başını gitti. SSL flow'da  3. bir tarafın yani bir otor
 
 **[LetsEncypte](https://developers.google.com/analytics/devguides/collection/android/v4/campaigns)**
 
-Bu organizasyon  bazı sponsorlar tarafından destekleniyor ve bağışlar ile ayakta duruyor sana tamamen ücretsiz bir ssl sertifikası veriyor. Bu sertifikanın süresi 1 ay gibi kısa bir süre fakat korkacak birşey yok bu sertifikayı belli limitler dahilinde nerseyse 2 günde bir yenileyebiliriz. Bu yüzden geçersiz kalması gibi beklenmedik bir durum olması pek mümkün değil. Hatta ücretli sertifiklardan daha uzun süre kullanabilirsiniz.
+Bu organizasyon  bazı sponsorlar tarafından destekleniyor ve bağışlar ile ayakta duruyor sana tamamen ücretsiz bir ssl sertifikası veriyor. Bu sertifikanın süresi 1 ay gibi kısa bir süre fakat korkacak birşey yok bu sertifikayı belli limitler dahilinde nerseyse 2 günde bir yenileyebilirsin. Bu yüzden geçersiz kalması gibi beklenmedik bir durum olması pek mümkün değil. Hatta ücretli sertifiklardan daha uzun süre kullanabilirsin.
 Peki nasıl yapıyor bu işi. Sizin domain iniz aldındaki web server üzerinde certbot isminde bir uygulama ,domain 'in size ait olduğunu doğrulayacak bir akıştan sonra (validation) size sertifiklarınızı indirip veriyor. Bu yaklaşık 2-3 dk gibi sürede gerçekleşiyor.
 
 ## Docker
