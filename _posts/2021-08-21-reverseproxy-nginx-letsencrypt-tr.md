@@ -48,6 +48,20 @@ CERTBOT_EMAILS=admin@xmachine.uk
 
 
 ```console
+
+DOMAINS=domain1.xmachine.uk domain2.xmachine.uk
+CERTBOT_EMAILS=admin@xmachine.uk
+```
+
+reverse proxy konfigurasyonunuzu aşağıdaki nginx config dosyalarına ekleyerek yapabilirsiniz
+```console
+//nginx/default.config
+//nginx/domains/domain1.config
+//nginx/domains/domain1.config
+```
+
+
+```console
 docker-compose build
 docker-compose up
 ```
