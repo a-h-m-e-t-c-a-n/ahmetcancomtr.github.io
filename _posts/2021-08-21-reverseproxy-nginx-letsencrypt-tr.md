@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docker,Nginx ve Letsencypt(ücretsiz SSL) reverse proxy configurasyonu"
+title:  "Docker,Nginx ve Letsencypt(ücretsiz SSL) reverse proxy Konfigurasyonu"
 summary: "Jr+Mid+Senior seviyesindeyseniz, bu makalede hızlı ve pratik bir şekilde ücretsiz SSL konfigurasyonu ile birlikte bir reverse-proxy nasıl yapılandırılır öğreneceksin"
 author: ahmetcan
 date: '2021-08-21 18:00:00 +2'
