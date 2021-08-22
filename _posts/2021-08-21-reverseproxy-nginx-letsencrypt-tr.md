@@ -60,7 +60,16 @@ reverse proxy konfigurasyonunuzu aşağıdaki nginx config dosyaları üzerinden
 //nginx/domains/domain1.config
 //nginx/domains/domain1.config
 ```
+! Bu aşamada dikkat etmen gereken bir şey var. Certbot doğrulama için  senin domain in  üzerindeki http servisine bir istek gönderecek bu yüzden bu isteği karşılaman ve certbot'a yönlendirmen gerekiyor.Domains altındaki örnek config dosyalarında bunu görebilirsin
 
+```console
+//nginx/domains/domain1.config
+
+location /.well-known/acme-challenge/ {
+    root /var/www/certbot/domain1.xmachine.uk;
+}
+```
+görmüş olduğun gibi gelen isteği cerbot un oluşturmuş olduğu geçici http servisine yönlendiriyor.Bu gerekli bir konfigurasyon,olmaması validasyon işlemini başarısız sonuçlanmasına neden olur.
 
 ```console
 docker-compose build
