@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Docker,Nginx ve Letsencypt(ücretsiz SSL) reverse proxy Konfigurasyonu"
-summary: "Bu makalede ücretsiz SSL konfigurasyonu ile birlikte bir reverse-proxy kolayca nasıl yapılandırılır öğreneceksin"
+summary: "Ücretsiz SSL konfigurasyonu ile birlikte bir reverse-proxy  yapılandırılırması ile ilgili sample proje sunuluyor"
 author: ahmetcan
 date: '2021-08-21 18:00:00 +2'
 category: [backend,tr]
@@ -23,7 +23,7 @@ Nginx static html server ve aynı zamanda bir reverse proxy/load balancer olarak
 ## Ücretsiz SSL.
 SSL fiyatları aldı başını gitti. SSL flow'da  3. bir tarafın yani bir otoritenin işin içine girmesi ve ben bu domain e kefilim demesi gerekiyor. Bu işi yapan hatırı sayılır comodo,rapidssl vs.. gibi bir çok firma var. Fakat eğer çok küçük çaplı bir hobi projesi yürütüyorsan ve SSL için yıllık domain başına 50$+ ,wildcard(tüm subdomainler dahil)  200$+ gibi rakamlar için bütçe ayıramıyorsan güzel bir haberim var bu işi ücretsiz yapmanın bir yol mevcut.
 
-**[LetsEncypte](https://developers.google.com/analytics/devguides/collection/android/v4/campaigns)**
+**[LetsEncypt](https://letsencrypt.org)**
 
 Bu organizasyon  bazı sponsorlar tarafından destekleniyor ve bağışlar ile ayakta duruyor sana tamamen ücretsiz bir ssl sertifikası veriyor. Bu sertifikanın süresi 1 ay gibi kısa bir süre fakat korkacak birşey yok bu sertifikayı belli limitler dahilinde nerseyse 2 günde bir yenileyebilirsin. Bu yüzden geçersiz kalması gibi beklenmedik bir durum olması pek mümkün değil. Hatta ücretli sertifiklardan daha uzun süre kullanabilirsin.
 Peki nasıl yapıyor bu işi. Sizin domain iniz aldındaki web server üzerinde certbot isminde bir uygulama ,domain 'in size ait olduğunu doğrulayacak bir akıştan sonra (validation) size sertifiklarınızı indirip veriyor. Bu yaklaşık 2-3 dk gibi sürede gerçekleşiyor.
