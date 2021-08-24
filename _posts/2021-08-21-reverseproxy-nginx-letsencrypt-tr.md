@@ -69,7 +69,7 @@ location /.well-known/acme-challenge/ {
     root /var/www/certbot/domain1.xmachine.uk;
 }
 ```
-görmüş olduğun gibi gelen isteği cerbot un oluşturmuş olduğu geçici http servisine yönlendiriyor.Bu gerekli bir konfigurasyon,olmaması validasyon işlemini başarısız sonuçlanmasına neden olur.
+görmüş olduğun gibi gelen isteğe cerbot un oluşturmuş olduğu geçici bir unique-id yi veriyor.Bu gerekli bir konfigurasyon,olmaması validasyon işlemini başarısız sonuçlanmasına neden olur.
 
 ```console
 docker-compose build
