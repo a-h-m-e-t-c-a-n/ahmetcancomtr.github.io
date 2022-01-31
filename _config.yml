@@ -95,7 +95,7 @@ author_education_details:
 author_project_details:
               - project_thumbnail: 
                 project_title: Yolov5nV6 Custom Model Traning
-                project_description: inference time 35ms, custom pricetag dataset traning 
+                project_description: inference time 35ms, custom pricetag dataset traning for android and ios devices
                 project_url: 
                 project_url_title: 
                 project_youtube_url: https://www.youtube.com/embed/8uizRnk2dyA 
