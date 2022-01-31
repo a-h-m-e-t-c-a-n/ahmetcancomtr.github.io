@@ -104,7 +104,6 @@ layout: default
     </div>
 
     <div class="card">
-
       {%- include author_skills.html -%}
     </div>
 
@@ -115,18 +114,20 @@ layout: default
       <h1 class="card-title">About</h1>
       <p>{{ site.author_bio }}</p>
     </div>
-    {% endif %} {% if site.show_author_project_details == true %}
+    {% endif %} 
+    {% if site.show_author_project_details == true %}
     <div id="author_projects" class="card">
-      <h1 class="card-title">Projects</h1>
+      <h1 class="card-title">Testimonials</h1>
       <br />
-      {% for project in site.author_project_details %} {% if project.visibility
-      == true %}
+      {% for project in site.author_project_details %} 
+      {% if project.visibility == true %}
       <div class="row" id="project-card">
         <div class="col-md-6">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
           />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/4ng5rKzt_nY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="col-md-4 center">
           <h4 class="experience-title">{{ project.project_title }}</h4>
