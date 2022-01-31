@@ -16,8 +16,6 @@ encoder,decoder,convolution,network,tensorflow light,torch,dataset,validation
 
 urls:
     - text: Home
-      url: /
-    - text: About
       url: /about
     - text: Blog
       url: /blog
