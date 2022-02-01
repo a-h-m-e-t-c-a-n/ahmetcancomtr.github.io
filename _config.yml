@@ -94,6 +94,13 @@ author_education_details:
 # Projects
 author_project_details:
               - project_thumbnail: 
+                project_title: Yolov5nV6 Custom Model Traning and OpenCV CSRF Tracking Alorithm
+                project_description: it uses opencv CSRF Tracking algortm and we can track objects is detected by yolov5 ,every object is marked by object id
+                project_url: 
+                project_url_title: 
+                project_youtube_url: https://www.youtube.com/embed/szKWWHAe3jA 
+                visibility: true
+              - project_thumbnail: 
                 project_title: Yolov5nV6 Custom Model Traning
                 project_description: inference time 35ms, custom pricetag dataset traning for android and ios devices
                 project_url: 
