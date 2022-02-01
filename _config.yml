@@ -1,5 +1,5 @@
 title: Ahmet CAN
-subtitle: Software Developer / Machine Learning . Mobile . Web 
+subtitle: Senior Software Architect . Web . Android . Machine Learning . CI/CD . Kubernetes . Cloud
 description: Senior Software Developer, Web And Mobile Full-Stack , Speaks English and Turkish 
 url: "https://ahmetcan.com.tr" 
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -139,6 +139,7 @@ permalink: pretty
 show_author_work_experiences: false
 show_author_education_details: false
 show_author_project_details: true
+show_author_bio: false
 
 # pagination of posts
 paginate: 4
