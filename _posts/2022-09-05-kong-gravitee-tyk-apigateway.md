@@ -4,7 +4,7 @@ title:  "What API Gateway to choose: Kong, Gravitee, Tyk or HAProxy?"
 summary: "API Gateways are more and more used nowadays: it permits you to have a single component to handle authentication and not code it several times, manages CORS etc. But it’s not an easy task to choose the one which matches the most your context and to do so, I compared 4 API Gateways: Kong, Gravitee, Tyk, and HAProxy.
 "
 author: ahmetcan
-date: '2021-08-21 18:00:00 +2'
+date: '2022-09-05 00:00:00 +2'
 category: [backend,tr]
 thumbnail: /assets/img/reverse-proxy.png
 keywords: apigateway, kong, gravitee ,haproxy,docker,apisix
