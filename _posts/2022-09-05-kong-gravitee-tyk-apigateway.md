@@ -6,7 +6,7 @@ summary: "API Gateways are more and more used nowadays: it permits you to have a
 author: ahmetcan
 date: '2022-09-05 00:00:00 +2'
 category: [backend,tr]
-thumbnail: /assets/img/reverse-proxy.png
+thumbnail: /assets/img/posts/api-gateway-kong-gravitee-haprox_c91c7eb465c446a49.webp
 keywords: apigateway, kong, gravitee ,haproxy,docker,apisix
 permalink: /blog/kong-gravitee-tyk-apigateway/
 usemathjax: true
