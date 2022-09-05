@@ -12,31 +12,18 @@ permalink: /blog/kong-gravitee-tyk-apigateway/
 usemathjax: true
 ---
 
-
-<img width="1420" height="540" src="/assets/img/posts/api-gateway-kong-gravitee-haprox_c91c7eb465c446a49.webp"/>
-
-# <a id="hs_cos_wrapper_name"></a>What API Gateway to choose: Kong, Gravitee, Tyk or HAProxy?
-
-## 
-
-API Gateways are more and more used nowadays: it permits you to have a single component to handle authentication and not code it several times, manages CORS etc. But it’s not an easy task to choose the one which matches the most your context and to do so, I compared 4 API Gateways: Kong, Gravitee, Tyk, and HAProxy.
-
-Summary
-
-- [<a id="hs_cos_wrapper_name"></a>What API Gateway to choose: Kong, Gravitee, Tyk or HAProxy?](#what-api-gateway-to-choose-kong-gravitee-tyk-or-haproxy)
-  - [](#)
-  - [Kong](#kong)
-    - [Architecture](#architecture)
-    - [Performances](#performances)
-  - [Gravitee](#gravitee)
-    - [Architecture](#architecture-1)
-    - [Performances](#performances-1)
-  - [Tyk](#tyk)
-    - [Architecture](#architecture-2)
-    - [Performances](#performances-2)
-  - [HAProxy](#haproxy)
-    - [Architecture](#architecture-3)
-    - [Performances](#performances-3)
+- [Kong](#kong)
+  - [Architecture](#architecture)
+  - [Performances](#performances)
+- [Gravitee](#gravitee)
+  - [Architecture](#architecture-1)
+  - [Performances](#performances-1)
+- [Tyk](#tyk)
+  - [Architecture](#architecture-2)
+  - [Performances](#performances-2)
+- [HAProxy](#haproxy)
+  - [Architecture](#architecture-3)
+  - [Performances](#performances-3)
 
 <a id="hs_cos_wrapper_post_body"></a>
 
